@@ -1,0 +1,21 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Big VM and disk images: download these, don't commit them
+*.iso
+*.img
+*.qcow2
+*.vmdk
+*.ova
+*.vdi
+
+# GNS3 working files (commit the portable .gns3project export instead)
+gns3/**/project-files/
+*.gns3.backup
+
+# Secrets: unredacted backups and credentials stay in the private Drive
+*-unredacted.xml
+*.key
+*.pem
+.env
